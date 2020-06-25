@@ -7,3 +7,7 @@ com ênfase em programação funcional.
 * Exercícios e tutoriais
 * Pequenos programas demonstrativos
 * Questões em aberto
+
+## Ferramentas
+
+* IntelliJ IDEA Community Edition 2019.3
