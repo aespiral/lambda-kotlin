@@ -8,6 +8,10 @@ com ênfase em programação funcional.
 * Pequenos programas demonstrativos
 * Questões em aberto
 
+## Programas
+
+papeletes - sistema de marcadores para aplicações em geral
+
 ## Ferramentas
 
 * IntelliJ IDEA Community Edition 2019.3
