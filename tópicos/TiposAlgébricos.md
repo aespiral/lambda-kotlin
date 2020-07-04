@@ -1,12 +1,13 @@
 # Tipos algébricos de dados
 
-> O projeto dos dados—em outras palavras, dos tipos—é o coração
+> O projeto dos dados—em outras palavras, o projeto dos tipos—é o coração
 > da programação funcional estaticamente tipada
 
 * TAD ≠ TAD
 * 0, 1, ⨉, +
 
-Não confundir com Tipos Abstratos de Dados
+Não confundir com Tipos Abstratos de Dados (que, em Kotlin, têm mais a ver com _Interfaces_, 
+classes abstratas, módulos, etc.)
 
 "Algébricos" porque alguns tipos são como o 0,
 outros como o 1, e há produto e soma.
@@ -16,7 +17,7 @@ outros como o 1, e há produto e soma.
 * Deve ser impossível representar qualquer valor desse tipo
 * Haskell: `Void`
 * Kotlin
-    *`Nothing`
+    * `Nothing`
     * Usado como retorno de funções sem retorno
     * É o subtipo universal: é aceito como subtipo de qualquer tipo
 
@@ -26,7 +27,7 @@ fun f() : Nothing {
 }
 
 fun g() : Nothing {
-    throw Exception // Sempre lança, logo nunca retorna
+    throw Exception // Com certeza lança uma excessão, logo nunca retorna
 }
 ```
 
@@ -40,7 +41,7 @@ fun g() : Nothing {
     * Valor `()`
 * Kotlin
     * Tipo: `Unit`
-    * Valor: `()`  (tupla vazia ou "_unit_")
+    * Valor: `()`  (lê-se: tupla vazia ou "_unit_")
 * Não contém nenhuma informação
     * Aquilo que só pode valer 1 coisa, não traz informação
     * Um evento que tem 100% de probabilidade de ocorrer não traz informação
@@ -89,7 +90,8 @@ Uma forma de definir: tuplas em que cada componente tem um nome e é chamado de 
 * Variações
     * _Records_ em Pascal, Haskell
     * _Structs_ em C
-    * Classes em Java, Kotlin
+
+Classes em Java, Kotlin, etc. também são tipo produto.
 
 * Haskell
 ```haskell
@@ -102,7 +104,7 @@ y = Xis 15 29 "cyt"
 ```
 * Legenda
     * `Novo`, `Xis` - nome do tipo, ou também "construtor" do tipo
-    * 'N', `Xis` - construtor de valor
+    * `N`, `Xis` - construtor de valor
     
 ---
 * Por que "Tipos Produto" ?
@@ -125,7 +127,7 @@ y = Xis 15 29 "cyt"
     * Como a união de conjuntos (união disjunta, isto é, sem interseções)
 * Pouco conhecidos fora da programação funcional
     * `union` e `enum` em C
-🍎
+
 ---
 * Por que "Tipos Soma"? (O argumento da cardinalidade)
     * Um tipo soma feito a partir de `Boolean` e `Unit` tem 3 = 2 + 1 elementos
