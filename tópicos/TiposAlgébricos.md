@@ -27,7 +27,7 @@ fun f() : Nothing {
 }
 
 fun g() : Nothing {
-    throw Exception // Com certeza lança uma excessão, logo nunca retorna
+    throw Exception // Com certeza lança uma exceção, logo nunca retorna
 }
 ```
 

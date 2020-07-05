@@ -39,7 +39,8 @@
         * Introdução a funções de ordem superior
 
 * 27/06/2020
-    * [Vídeo](https://youtu.be/ApIO_s9x9QQ)
+    * Vídeo    
+        * [02](https://youtu.be/ApIO_s9x9QQ)
     * Conteúdo 
         * `data class`
         * Tipos algébricos (`sealed class` e `when`)
