@@ -17,7 +17,8 @@ y = Nothing
 ```
 
 * Cardinalidade
-    # `Maybe a` = # `a` + 1
+
+    \# `Maybe a` = \# `a` + 1
 
 ## Implementação
 
@@ -45,4 +46,3 @@ sealed class Option<out A> {
     }
 }
 ```
-
