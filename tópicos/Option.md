@@ -1,7 +1,7 @@
 # Tipo Option
 
 * Corresponde ao `Option` do OCaml, `Maybe` do Haskell
-* Tipo soma 
+* Tipo soma genérico que incorpora completamente um tipo qualquer e a ele adiciona um valor único, que representa erro.
 
 * Haskell
 ```haskell
@@ -9,10 +9,17 @@ data Maybe a =
     Just a
   | Nothing
 
-data Option a =
-    Some a
-  | None
+x :: Maybe Int
+x = Just 10
+
+y :: Maybe Char
+y = Nothing
 ```
+
+* Cardinalidade
+    # `Maybe a` = # `a` + 1
+
+## Implementação
 
 * Kotlin (baseado em `The Joy of Kotlin`, Pierre-Yves Saumont , Listing 6.1)
 
@@ -37,6 +44,5 @@ sealed class Option<out A> {
             }
     }
 }
-
 ```
 
