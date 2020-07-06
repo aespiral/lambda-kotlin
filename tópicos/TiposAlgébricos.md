@@ -79,7 +79,7 @@ Em Kotlin, só há duas classes prontas que exercem a função de tuplas:
 Para demais "larguras", a linguagem incentiva a criação de classes, 
 visto que é tão barato criar classes em Kotlin em qualquer ponto do programa.
 
-Para criar uma dupla: `Pair<>(4, "oi")`, ou `4 to "oi"`
+Para criar uma dupla: `Pair(4, "oi")`, ou `4 to "oi"`
 
 Para consumir uma dupla: pelos campos (`first`, `second`)
 ou por `val (a, b) = (4, "oi")`
@@ -111,7 +111,7 @@ y = Xis 15 29 "cyt"
     * Tem teoria de conjuntos: produto cartesiano
     * Número de elementos
 
-* `Pair<Boolean, Bool>` tem 4 = 2 * 2 possíveis elementos
+* `Pair<Boolean, Boolean>` tem 4 = 2 * 2 possíveis elementos
     * `(true, true)`
     * `(true, false)`
     * `(false, false)`

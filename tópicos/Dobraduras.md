@@ -14,6 +14,8 @@
     val m2 = lista.fold(-1000) { acc, elem -> if (elem > acc) elem else acc }
 ```
 
+A arte está em projetar e entender o acumulador.
+
 ## `fold` X `foldRight`
 
 ``` 
