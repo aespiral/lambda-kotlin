@@ -15,3 +15,5 @@ papeletes - sistema de marcadores para aplicações em geral
 ## Ferramentas
 
 * IntelliJ IDEA Community Edition 2019.3
+* Gradle
+* Em breve: lib Arrow
