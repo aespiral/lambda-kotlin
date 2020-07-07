@@ -3,7 +3,11 @@
 ## Atual
 
 * 04/07/2020
-    * [Lista de Vídeos](https://www.youtube.com/playlist?list=PLGw6FOJ2oNsFu_yAjcEbW-8kXuJWSaNcB)
+    * Vídeos:
+        * [03-A](https://youtu.be/Mu0tOYMuWtQ)
+        * [03-B](https://youtu.be/cJth9MiyvQU)
+        * [03-C](https://youtu.be/k5Mtm4KiIvw)
+        * [03-D](https://youtu.be/xxsi2w2fe2Q)
     * Conteúdo
         * Revisão de tipos algébricos
         * Tipos (classes) e funções genéricas (polimorfismo paramétrico)
