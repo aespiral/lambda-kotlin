@@ -7,6 +7,7 @@
         * Prévias das atividades
         * Histórico das atividades
         * Instruções originais no final
+    * [Playlist](https://www.youtube.com/playlist?list=PLGw6FOJ2oNsFu_yAjcEbW-8kXuJWSaNcB)
 
 ## Atual
 
