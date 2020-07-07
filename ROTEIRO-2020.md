@@ -67,6 +67,8 @@
 ---
 # Programação funcional com Kotlin
 
+[Playlist](https://www.youtube.com/playlist?list=PLGw6FOJ2oNsFu_yAjcEbW-8kXuJWSaNcB)
+
 Primeiros passos na programação funcional, com o recurso da linguagem de programação Kotlin.
 Ou, poderia ser ao mesmo tempo: primeiros passos na linguagem de programação Kotlin, 
 com ênfase em programação funcional.
