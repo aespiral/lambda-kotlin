@@ -13,7 +13,7 @@
 * Resposta
     * Gerenciador de _build_ Gradle
     * Repositório Kotlin/JVM + Gradle
-        * Assim como C e make
+        * Assim como C e make (em várias linguagens se dá algo semelhante, ver abaixo)
         * Kotlin adere a módulos definidos por ferramentas
         * Gradle tornou-se programável em Kotlin
     * IntelliJ e Gradle
@@ -21,6 +21,35 @@
         * Arquivos de projeto do IntelliJ passam a não existir
         * IntelliJ possui recursos de UI para Gradle
         * CLI do Gradle está valendo
+    * ( ( Pelas linguagens de programação por aí
+        * Em geral:
+            * Há a ferramenta de linha de comando
+                * Muitas vezes, também disponível como lib
+            * Um formato de empacotamento para distribuição
+            * Um centro de distribuição (um site e também uma marca, um nome)
+            * Exemplo: Gradle + JAR + Maven-repo
+        * Haskell
+            *  Cabal + _tarball_ + Hackage 
+                * No início, era o Cabal
+                * Falhava em conciliar versões
+                * Evoluiu muito com a concorrência de Stack
+            * Stack + _tarball_ + Stackage
+                * Trouxe o conceito de _Long Term Support_ 
+            * Shake
+            * Hadrian
+        * OCaml
+            * ocamlbuild + _tarballs_ + Opam
+                * Ferramentas de OCaml refletiam a cultura Unix tradicional dos devs
+            * Dune
+                * Muita coisa se modernizou quando empresas adotaram OCaml
+        * Rust
+            * Cargo + cradle + cradle.io
+                * A linguagem já surge com uma ferramenta bem pensada
+                * Surge na década de 2010, portanto com visão moderna
+                * Surge nos anos 2010, já com a influência de outras ferramentas em linguagens várias
+                * Rust se beneficia de haver satisfação e consenso sobre ferramenta
+                ) ) 
+                
 
 ## Rotinas de trabalho (ou _workflows_)
 
