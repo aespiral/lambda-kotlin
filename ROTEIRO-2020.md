@@ -11,32 +11,21 @@
 
 ## Atual
 
-* 04/07/2020
-    * Vídeos:
-        * [03-A](https://youtu.be/Mu0tOYMuWtQ)
-        * [03-B](https://youtu.be/cJth9MiyvQU)
-        * [03-C](https://youtu.be/k5Mtm4KiIvw)
-        * [03-D](https://youtu.be/xxsi2w2fe2Q)
-    * Conteúdo
-        * Revisão de tipos algébricos
-        * Tipos (classes) e funções genéricas (polimorfismo paramétrico)
-            * Variância
-        * `Option`
-        * Exemplo de modelagem com tipos algébricos
-    * Exercício para entrega 
-        * Prazo: 11/07/2020
-        * Tema: modelagem com tipos algébricos
-
-## Prévia
-
-* 11/07/202
+* 11/07/2020
+    * Mais sobre funções em Kotlin
     * Estruturas de dados funcionais
         * Listas
         * Árvores
     * Estrutura de dados Kotlin: `Map`
-    * Testes com base em propriedades
+    * Composição em computação
+        * Introdução à ideia 
+        * Introdução à Teoria das Categorias
+        * A biblioteca _Arrow_ em Kotlin
+
+## Prévia
 
 * Tópicos futuros
+    * Testes com base em propriedades
     * `fold` 2a parte
     * Introdução do projeto `papeletes`
 
@@ -63,6 +52,22 @@
     * Exercício para entrega 
         * Prazo: 04/07/2020
         * Tema: `map filter fold` com `data class`es
+
+* 04/07/2020
+    * Vídeos:
+        * [03-A](https://youtu.be/Mu0tOYMuWtQ)
+        * [03-B](https://youtu.be/cJth9MiyvQU)
+        * [03-C](https://youtu.be/k5Mtm4KiIvw)
+        * [03-D](https://youtu.be/xxsi2w2fe2Q)
+    * Conteúdo
+        * Revisão de tipos algébricos
+        * Tipos (classes) e funções genéricas (polimorfismo paramétrico)
+            * Variância
+        * `Option`
+        * Exemplo de modelagem com tipos algébricos
+    * Exercício para entrega 
+        * Prazo: 13/07/2020
+        * Tema: modelagem com tipos algébricos
 
 ---
 # Programação funcional com Kotlin
