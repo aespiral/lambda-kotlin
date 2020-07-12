@@ -12,15 +12,18 @@
 ## Atual
 
 * 11/07/2020
-    * Mais sobre funções em Kotlin
-    * Estruturas de dados funcionais
-        * Listas
-        * Árvores
-    * Estrutura de dados Kotlin: `Map`
-    * Composição em computação
-        * Introdução à ideia 
-        * Introdução à Teoria das Categorias
-        * A biblioteca _Arrow_ em Kotlin
+    * Vídeo
+        * TLP04-A : https://youtu.be/xigaxndBJns
+    * Conteúdo
+        * Mais sobre funções em Kotlin
+        * Estruturas de dados funcionais
+            * Listas
+            * Árvores
+        * Estrutura de dados Kotlin: `Map`
+        * Composição em computação
+            * Introdução à ideia 
+            * Introdução à Teoria das Categorias
+            * A biblioteca _Arrow_ em Kotlin
 
 ## Prévia
 

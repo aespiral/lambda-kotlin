@@ -1,5 +1,7 @@
 # Funções
 
+Vídeo: https://youtu.be/xigaxndBJns
+
 Baseado em _The joy of Kotlin_, Seção 2.7 e Capítulo 3
 
 * Resumo
