@@ -19,17 +19,17 @@
         * Estruturas de dados funcionais
             * Listas
             * Árvores
-        * Estrutura de dados Kotlin: `Map`
-        * Composição em computação
-            * Introdução à ideia 
-            * Introdução à Teoria das Categorias
-            * A biblioteca _Arrow_ em Kotlin
 
 ## Prévia
 
 * Tópicos futuros
     * Testes com base em propriedades
-    * `fold` 2a parte
+    * Recursão e mais sobre `fold` 
+    * Estrutura de dados Kotlin: `Map`
+    * Composição em computação
+        * Introdução à ideia 
+        * Introdução à Teoria das Categorias
+        * A biblioteca _Arrow_ em Kotlin
     * Introdução do projeto `papeletes`
 
 ## Histórico
