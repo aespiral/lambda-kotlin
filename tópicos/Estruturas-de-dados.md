@@ -73,7 +73,18 @@ fun <A> substituir(alvo: A, novo: A, lista: Lista<A> ): Lista<A> =
 
 * Árvore binária
     * 4 tipos de nós
-    * Compartilhamento
+```kotlin
+sealed class Arv<out A>
+data class Folha<A>(val valor: A): Arv<A>()
+data class RmE<A>(val valor: A, val rmE: Arv<A>): Arv<A>()
+data class RmD<A>(val valor: A, val rmD: Arv<A>): Arv<A>()
+data class Bif<A>(val valor: A, val rmE: Arv<A>, val rmD: Arv<A>): Arv<A>()
+
+val a1: Arv<Int> = Bif(40, RmD(15, Folha(37)), Folha(80))
+```
+
+![](imagens/árvore.svg)
+
 ```kotlin
 fun inserir(elem: Int, no: Arv<Int>): Arv<Int> =
     when (no) {
@@ -97,8 +108,6 @@ fun inserir(elem: Int, no: Arv<Int>): Arv<Int> =
 ```
 
 ![Operações](imagens/árvore-8casos.svg)
-
-![](imagens/árvore.svg)
 
 ![](imagens/árvore-inserir87.svg)
 
