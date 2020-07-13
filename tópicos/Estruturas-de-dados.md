@@ -111,7 +111,7 @@ fun inserir(elem: Int, no: Arv<Int>): Arv<Int> =
 
 ![](imagens/árvore-inserir87.svg)
 
-### Memória
+### Apenas como registro
 
 * `inserir`, versão em Haskell
 ```haskell
@@ -134,3 +134,17 @@ insert x (R y tr) | x >= y = R y (insert x tr)
 insert x (Bin y tl tr) | x >= y = Bin y tl (insert x tr)
                        | x < y  = Bin y (insert x tl) tr
 ```
+
+## Em Kotlin
+
+A coleção `kotlin.List<E>` em Kotlin não é uma lista baseada em células `Cons` da forma como vimos.
+Segundo a documentação, é mais um `ArrayList`, isto é, um array com possibilidades de crescimento
+sob demanda. A implementação deve se valer de classes em Java já existentes.
+
+Ainda assim, é possível realizar algum tipo de recursão item a item em `kotlin.List<E>` através de
+_folds_.
+
+Em outras linguagens funcionais, as listas são baseadas em células `Cons`. 
+Em Haskell, _strings_ são listas de caracteres, o que levanta questionamentos de eficiência.
+Por outro lado, Clojure, que possui diversas estruturas de dados prontas na linguagem, adota
+uma árvore sofisticada e otimizada por baixo dos panos.
