@@ -12,8 +12,9 @@
 ## Atual
 
 * 11/07/2020
-    * Vídeo
+    * Vídeos
         * TLP04-A : https://youtu.be/xigaxndBJns
+        * TLP04-B : https://youtu.be/KhNJkDB07bs
     * Conteúdo
         * Mais sobre funções em Kotlin
         * Estruturas de dados funcionais

@@ -1,5 +1,7 @@
 # Estruturas de dados funcionais
 
+* Vídeo : https://youtu.be/KhNJkDB07bs
+
 * Características
     * Imutabilidade
     * Persistência

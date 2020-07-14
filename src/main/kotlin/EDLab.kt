@@ -65,9 +65,12 @@ fun inserir(elem: Int, no: Arv<Int>): Arv<Int> =
         }
     }
 
+val a2 = inserir(50, a1)
+
 fun main() {
     println(tamanho(l1))
     println(soma(l1))
 
     println(soma(substituir(10, 11, l1)))
+    println(a2)
 }
